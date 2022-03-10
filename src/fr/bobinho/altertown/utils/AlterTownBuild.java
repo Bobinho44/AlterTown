@@ -7,6 +7,7 @@ import org.bukkit.inventory.ItemStack;
 
 import javax.annotation.Nonnull;
 import java.util.Arrays;
+import java.util.List;
 import java.util.stream.Collectors;
 
 public class AlterTownBuild {
@@ -88,7 +89,7 @@ public class AlterTownBuild {
     public ItemStack getGUIItem() {
         return new AlterTownItemBuilder(getItem().clone())
                 .name(ChatColor.WHITE + getName())
-                .lore(ChatColor.WHITE + getDescription())
+                .setLore(List.of((ChatColor.WHITE + getDescription()).replace("%nl%", "%nl%" + ChatColor.WHITE).split("%nl%")))
                 .lore(ChatColor.WHITE + ChatColor.getLastColors(getLevel()) + "Level: " + getLevel())
                 .build();
     }

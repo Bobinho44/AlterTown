@@ -1,0 +1,7 @@
+
+c	java:S116"NRename this field "URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºë½Ñ
+m
+java:S1192º"QDefine a constant instead of duplicating this literal "official is null" 4 times.(ÃÅãºúÿÿÿÿ
+g	java:S117Ž"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™‰«‘
+f
+java:S3655³"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(†«öv

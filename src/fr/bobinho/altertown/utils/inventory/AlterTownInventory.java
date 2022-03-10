@@ -52,9 +52,8 @@ public class AlterTownInventory {
         Inventory inventory = Bukkit.createInventory(new TownHolder(alterTown, page), 54, Component.text(""));
 
         //Places divider
-        for (int i = 0; i < 3; i++) {
-            inventory.setItem(i, AlterTownItemUtil.getAlterTownDiviserItem(ChatColor.LIGHT_PURPLE));
-        }
+        inventory.setItem(0, AlterTownItemUtil.getAlterTownLeaderDiviserItem());
+        inventory.setItem(2, AlterTownItemUtil.getAlterTownOfficialDiviserItem());
 
         //Places divider
         for (int i = 9; i < 18; i++) {

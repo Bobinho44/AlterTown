@@ -27,11 +27,10 @@ public class AlterTownItemUtil {
 
             //Gets glass pane color
             case RED -> Material.RED_STAINED_GLASS_PANE;
-            case LIGHT_PURPLE -> Material.PINK_STAINED_GLASS_PANE;
             case GREEN -> Material.LIME_STAINED_GLASS_PANE;
             default -> Material.BLACK_STAINED_GLASS_PANE;
 
-        }).name("").build();
+        }).name(" ").build();
     }
 
     /**
@@ -91,13 +90,23 @@ public class AlterTownItemUtil {
     public static ItemStack getAlterTownLeaderItem(@Nonnull AlterTown alterTown) {
         Validate.notNull(alterTown, "alterTown is null");
 
-       if (alterTown.getLeader().isPresent()) {
-           OfflinePlayer player = Bukkit.getOfflinePlayer(alterTown.getLeader().get());
-           return new AlterTownItemBuilder(player)
-                   .name(AlterTownMessageManager.getColoredText(AlterTownMessage.LEADER_COLOR.getRawText() + player.getName()))
-                   .build();
-       }
-       return null;
+        if (alterTown.getLeader().isPresent()) {
+            OfflinePlayer player = Bukkit.getOfflinePlayer(alterTown.getLeader().get());
+            return new AlterTownItemBuilder(player)
+                    .name(AlterTownMessageManager.getColoredText(AlterTownMessage.LEADER_COLOR.getRawText() + player.getName()))
+                    .build();
+        }
+        return null;
+    }
+
+    /**
+     * Gets the towns gui leader divider item
+     *
+     * @return the towns gui leader divider item
+     */
+    @Nonnull
+    public static ItemStack getAlterTownLeaderDiviserItem() {
+        return new AlterTownItemBuilder(Material.PINK_STAINED_GLASS_PANE).name(AlterTownMessage.LEADER_COLOR.getRawText() + "Leader").build();
     }
 
     /**
@@ -118,6 +127,16 @@ public class AlterTownItemUtil {
                     .build();
         }
         return null;
+    }
+
+    /**
+     * Gets the towns gui official divider item
+     *
+     * @return the towns gui official divider item
+     */
+    @Nonnull
+    public static ItemStack getAlterTownOfficialDiviserItem() {
+        return new AlterTownItemBuilder(Material.PINK_STAINED_GLASS_PANE).name(AlterTownMessage.OFFICIAL_COLOR.getRawText() + "Officials").build();
     }
 
     /**

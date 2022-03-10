@@ -287,7 +287,7 @@ public class AlterTown {
     public ItemStack getGUIItem() {
         return new AlterTownItemBuilder(getItem().clone())
                 .name(ChatColor.WHITE + getName())
-                .lore(ChatColor.WHITE + getDescription())
+                .setLore(List.of((ChatColor.WHITE + getDescription()).replace("%nl%", "%nl%" + ChatColor.WHITE).split("%nl%")))
                 .lore(ChatColor.WHITE + "Population: " + getPopulation())
                 .lore(ChatColor.WHITE + ChatColor.getLastColors(getBiome()) + "Biome: " + getBiome())
                 .build();

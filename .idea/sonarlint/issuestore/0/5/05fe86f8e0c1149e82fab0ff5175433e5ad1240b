@@ -1,0 +1,23 @@
+
+h
+java:S3776#"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(©ã¨
+Q
+java:S1874)"6Remove this use of "getDisplayName"; it is deprecated.(‰Ğ¹ıúÿÿÿÿ
+G
+java:S19053",Remove this unnecessary cast to "Inventory".(ÖÍ˜üÿÿÿÿ
+B
+java:S19057",Remove this unnecessary cast to "Inventory".(İìşÏ
+I
+java:S1874;"3Remove this use of "sendMessage"; it is deprecated.(½‰óğ
+\
+java:S1128"ARemove this unused import 'fr.bobinho.altertown.utils.AlterTown'.(»‚êûÿÿÿÿ
+D
+java:S1128".Remove this unused import 'org.bukkit.Bukkit'.(Ø­æ
+E
+java:S1128"/Remove this unused import 'java.util.Calendar'.(ÿÛö´
+D
+java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›
+J
+java:S1066K"/Merge this if statement with the enclosing one.(”ÈÄûÿÿÿÿ
+f
+java:S3655L"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(°×Í

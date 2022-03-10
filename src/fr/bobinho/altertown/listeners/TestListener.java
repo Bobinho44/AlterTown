@@ -72,7 +72,7 @@ public class TestListener implements Listener {
 
         for (String uuid : configuration.getKeys(false)) {
             if (AlterTownDateFormat.getAsDayIntervalFormat(configuration.getString(uuid + ".connection")) >= AlterTownCore.getMessagesSettings().getConfiguration().getInt("offlineCooldown")) {
-                if (AlterTownManager.isAnAlterTownLeader(UUID.fromString(uuid))) {
+                if (AlterTownManager.isInAlterTown(UUID.fromString(uuid)) && AlterTownManager.isAnAlterTownLeader(UUID.fromString(uuid))) {
                     AlterTownManager.getPlayerAlterTown(UUID.fromString(uuid)).get().removeMember(UUID.fromString(uuid));
                 }
             }

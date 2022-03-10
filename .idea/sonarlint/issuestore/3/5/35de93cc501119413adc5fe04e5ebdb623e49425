@@ -1,0 +1,17 @@
+
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 54 to the 15 allowed.(›Ñ€˜úÿÿÿÿ
+l
+java:S3655‡"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ç Åìþÿÿÿÿ
+k
+java:S36556"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ç Åìþÿÿÿÿ
+l
+java:S3655Å"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ç Åìþÿÿÿÿ
+l
+java:S3655Ø"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ç Åìþÿÿÿÿ
+g
+java:S3655¨"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(œúÚ‘
+f
+java:S3655q"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(‡ýÔã
+l
+java:S3655¥"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ç Åìþÿÿÿÿ

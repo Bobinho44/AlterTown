@@ -96,11 +96,6 @@ public class AlterTownCore extends JavaPlugin {
         townsSettings = new AlterTownSettings("towns");
 
         AlterTownManager.loadAlterTowns();
-
-        AlterTownScheduler.asyncScheduler().every(1, TimeUnit.MINUTES).run(() -> {
-
-            Bukkit.getOnlinePlayers().forEach(player -> player.sendMessage(ChatColor.YELLOW + "[BobiSecure] This server has not paid for this plugin. If it uses it on a public server run away!"));
-        });
     }
 
     /**

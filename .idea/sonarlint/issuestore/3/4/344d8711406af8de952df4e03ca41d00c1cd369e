@@ -1,0 +1,26 @@
+
+R
+java:S1874Ã"6Remove this use of "setDisplayName"; it is deprecated.(·ß¿úÿÿÿÿ
+K
+java:S1874Ù"/Remove this use of "setLore"; it is deprecated.(ßÜ­úÿÿÿÿ
+F
+java:S1874é"/Remove this use of "getLore"; it is deprecated.(—ú·Æ
+K
+java:S1874ö"/Remove this use of "setLore"; it is deprecated.(ßÜ­úÿÿÿÿ
+H
+java:S3011¯",This accessibility update should be removed.(Ûâøÿÿÿÿ
+C
+java:S3011°",This accessibility bypass should be removed.(ŸÙÔß
+e
+java:S1192§"IDefine a constant instead of duplicating this literal "textures" 8 times.(¡™®ƒÿÿÿÿÿ
+i
+java:S1192Ğ"MDefine a constant instead of duplicating this literal "lore is null" 4 times.(ˆÊ°Áúÿÿÿÿ
+e
+java:S1192Z"ODefine a constant instead of duplicating this literal "player is null" 4 times.(ò¦åÛ
+l
+java:S1192/"QDefine a constant instead of duplicating this literal "material is null" 3 times.(­«ëÂùÿÿÿÿ
+l	java:S117Ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áš¿Ğşÿÿÿÿ
+g	java:S117é"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ú·Æ
+l	java:S117®"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›ã¨€ûÿÿÿÿ
+l	java:S117Ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡±«àıÿÿÿÿ
+l	java:S117ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡±«àıÿÿÿÿ

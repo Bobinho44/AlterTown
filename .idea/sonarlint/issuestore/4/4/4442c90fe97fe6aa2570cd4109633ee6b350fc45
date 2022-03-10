@@ -1,0 +1,21 @@
+
+U
+java:S1161S":Add the "@Override" annotation above this method signature(âºˆ¾úÿÿÿÿ
+Q
+java:S2696T"6Make the enclosing method "static" or remove this set.(ñõîÙşÿÿÿÿ
+L
+java:S2696]"6Make the enclosing method "static" or remove this set.(ºÃ±
+K
+java:S2696^"6Make the enclosing method "static" or remove this set.(ğ†ŒI
+Q
+java:S2696_"6Make the enclosing method "static" or remove this set.(·¤ä©ûÿÿÿÿ
+L
+java:S2696`"6Make the enclosing method "static" or remove this set.(¥ÇıŞ
+O
+java:S1161h":Add the "@Override" annotation above this method signature(â¶œ4
+\
+java:S1128"ARemove this unused import 'fr.bobinho.altertown.utils.AlterTown'.(»‚êûÿÿÿÿ
+q
+java:S1128	"TRemove this unused import 'fr.bobinho.altertown.utils.scheduler.AlterTownScheduler'.(‰„¢ú8‹„÷/
+W
+java:S1128":Remove this unused import 'java.util.concurrent.TimeUnit'.(Æ™ş8‹„÷/
