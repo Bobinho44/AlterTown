@@ -70,7 +70,7 @@
     <dependency>
       <groupId>io.papermc.paper</groupId>
       <artifactId>paper-api</artifactId>
-      <version>1.18.1-R0.1-SNAPSHOT</version>
+      <version>1.18.2-R0.1-SNAPSHOT</version>
       <scope>provided</scope>
       <exclusions>
         <exclusion>
@@ -114,6 +114,10 @@
           <groupId>net.kyori</groupId>
         </exclusion>
         <exclusion>
+          <artifactId>adventure-text-minimessage</artifactId>
+          <groupId>net.kyori</groupId>
+        </exclusion>
+        <exclusion>
           <artifactId>adventure-text-serializer-gson</artifactId>
           <groupId>net.kyori</groupId>
         </exclusion>
@@ -142,7 +146,7 @@
     <dependency>
       <groupId>org.spigotmc</groupId>
       <artifactId>spigot</artifactId>
-      <version>1.18.1-R0.1-SNAPSHOT</version>
+      <version>1.18.2-R0.1-SNAPSHOT</version>
       <scope>provided</scope>
       <exclusions>
         <exclusion>
@@ -175,6 +179,10 @@
         </exclusion>
         <exclusion>
           <artifactId>javabridge</artifactId>
+          <groupId>com.mojang</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>logging</artifactId>
           <groupId>com.mojang</groupId>
         </exclusion>
         <exclusion>
@@ -242,7 +250,7 @@
     <dependency>
       <groupId>org.bukkit</groupId>
       <artifactId>bukkit</artifactId>
-      <version>1.18.1-R0.1-SNAPSHOT</version>
+      <version>1.18.2-R0.1-SNAPSHOT</version>
       <scope>provided</scope>
       <exclusions>
         <exclusion>
